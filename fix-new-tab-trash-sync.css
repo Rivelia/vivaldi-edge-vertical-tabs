@@ -9,3 +9,11 @@
 #tabs-container > div.toolbar.toolbar-tabbar.sync-and-trash-container > div {
 	margin: auto !important;
 }
+
+#tabs-container > div.toolbar.toolbar-tabbar.sync-and-trash-container > div.button-toolbar.synced-tabs-button > button {
+	margin: auto !important;
+}
+
+#tabs-container:hover .sync-and-trash-container .synced-tabs-button span::after {
+	display: none !important;
+}

@@ -1,0 +1,11 @@
+#tabs-container:hover .toolbar-tabbar .newtab > button::after {
+    display: none !important;
+}
+
+#tabs-container:hover .sync-and-trash-container .toggle-trash button span::after {
+    display: none !important;
+}
+
+#tabs-container > div.toolbar.toolbar-tabbar.sync-and-trash-container > div {
+	margin: auto !important;
+}

@@ -1,0 +1,40 @@
+#header {
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	width: 100% !important;
+	height: 16px !important;
+}
+
+#browser:not(.maximized) #main > div.UrlBar.toolbar.toolbar-mainbar {
+	margin-top: 10px !important;
+}
+
+#pagetitle {
+	display: none !important;
+}
+
+#browser:not(.maximized) #titlebar > div.window-buttongroup {
+	height: 50px !important;
+}
+
+#tabs-container:not(.dummy) {
+	margin-top: 33px !important;
+	padding-top: 0px !important;
+}
+
+#browser:not(.maximized) #tabs-container:not(.dummy) {
+	margin-top: 43px !important;
+}
+
+#titlebar > button {
+    width: 50px;
+    height: 33px !important;
+    padding-left: 1px !important;
+    background-color: var(--colorBgAlphaBlur);
+    border-right: 1px solid var(--colorBorder);
+}
+
+#browser:not(.maximized) #titlebar > button {
+	height: 43px !important;
+}

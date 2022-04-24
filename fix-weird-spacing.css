@@ -2,8 +2,8 @@
     width: auto !important;
 }
 
-#main > div.UrlBar.toolbar.toolbar-mainbar > div.toolbar-extensions {
-    margin-right: 132px !important;
+.UrlBar {
+    padding-right: 132px !important;
 }
 
 #titlebar > div.window-buttongroup {

@@ -31,10 +31,16 @@
     width: 50px;
     height: 33px !important;
     padding-left: 1px !important;
-    background-color: var(--colorBgAlphaBlur);
+    color: var(--colorFg);
+    background-color: var(--colorBg);
     border-right: 1px solid var(--colorBorder);
 }
 
 #browser:not(.maximized) #titlebar > button {
     height: 43px !important;
+}
+
+.color-behind-tabs-off #titlebar > button {
+	background: var(--colorAccentBg);
+    color: var(--colorAccentFg);
 }

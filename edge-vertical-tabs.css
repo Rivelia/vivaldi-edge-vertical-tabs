@@ -380,9 +380,9 @@ v1.2.9: Added hover delay (Thanks to u/TwisterMc!)
     max-width: 100% !important;
 }
 
-#tabs-container:hover .sync-and-trash-container {
+/* #tabs-container:hover .sync-and-trash-container {
     padding-right: 0;
-}
+} */
 
 .synced-tabs-button {
     display: block;
@@ -394,11 +394,11 @@ v1.2.9: Added hover delay (Thanks to u/TwisterMc!)
     height: 29px;
     width: 28px;
 }
- .sync-and-trash-container .synced-tabs-button button span svg {
+
+.sync-and-trash-container .synced-tabs-button button span svg {
     height: 29px;
     width: 28px;
- }
-
+}
 
 #tabs-container:hover .sync-and-trash-container .toggle-trash button span::after {
     content: "Trash";

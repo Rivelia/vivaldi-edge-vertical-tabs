@@ -1,12 +1,12 @@
 #main > div.inner > div:nth-child(2) {
-	width: auto !important;
+    width: auto !important;
 }
 
 #main > div.UrlBar.toolbar.toolbar-mainbar > div.toolbar-extensions {
-	margin-right: 132px !important;
+    margin-right: 132px !important;
 }
 
 #titlebar > div.window-buttongroup {
-	height: 33px !important;
-	align-items: center !important;
+    height: 33px !important;
+    align-items: center !important;
 }

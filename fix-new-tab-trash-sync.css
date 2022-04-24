@@ -1,19 +1,59 @@
 #tabs-container:hover .toolbar-tabbar .newtab > button::after {
-	display: none !important;
+    -webkit-mask-image: -webkit-linear-gradient(180deg, transparent 0, var(--colorBg) 25px);
+    padding-left: 0px !important;
+    min-width: 0px !important;
 }
 
+#tabs-container:hover .sync-and-trash-container .synced-tabs-button span::after,
 #tabs-container:hover .sync-and-trash-container .toggle-trash button span::after {
-	display: none !important;
+    -webkit-mask-image: -webkit-linear-gradient(180deg, transparent 0, var(--colorBg) 25px);
+    padding-left: 0px !important;
+    min-width: 0px !important;
+    width: 100%;
 }
 
-#tabs-container > div.toolbar.toolbar-tabbar.sync-and-trash-container > div {
-	margin: auto !important;
+.toolbar-tabbar .newtab > button {
+    justify-content: flex-start;
 }
 
-#tabs-container > div.toolbar.toolbar-tabbar.sync-and-trash-container > div.button-toolbar.synced-tabs-button > button {
-	margin: auto !important;
+.toolbar-tabbar.sync-and-trash-container.narrow {
+    flex-direction: row !important;
 }
 
-#tabs-container:hover .sync-and-trash-container .synced-tabs-button span::after {
-	display: none !important;
+#tabs-container > div.toolbar.toolbar-tabbar.sync-and-trash-container > div.button-toolbar.synced-tabs-button > button,
+#tabs-container > div.toolbar.toolbar-tabbar.sync-and-trash-container > div.button-toolbar.toggle-trash > button {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.button-toolbar > button > span {
+    gap: 6px;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+
+.sync-and-trash-container {
+    padding: 10px !important;
+    background-color: var(--colorBg) !important;
+}
+
+.tab-strip {
+    overflow-x: hidden !important;
+}
+
+.sync-and-trash-container .synced-tabs-button button span svg,
+.sync-and-trash-container .toggle-trash button span svg {
+    min-height: 29px;
+    min-width: 28px;
+}
+
+.toggle-trash {
+    display: block;
+    width: 100%;
+    margin-bottom: -2px;
+}
+
+.tab-position > .tab > .tab-header > .favicon {
+    min-width: 20px !important;
 }

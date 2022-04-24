@@ -41,6 +41,6 @@
 }
 
 .color-behind-tabs-off #titlebar > button {
-	background: var(--colorAccentBg);
+    background: var(--colorAccentBg);
     color: var(--colorAccentFg);
 }

@@ -33,6 +33,10 @@
     width: 100%;
 }
 
+#tabs-container .button-toolbar > button:active {
+    transform-origin: center left;
+}
+
 .sync-and-trash-container {
     padding: 10px !important;
     background-color: var(--colorBg) !important;

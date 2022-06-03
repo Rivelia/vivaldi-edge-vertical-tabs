@@ -16,7 +16,7 @@
 
 #browser:not(.maximized) #titlebar > div.window-buttongroup {
     height: 32px !important;
-	margin-top: 10px !important;
+    margin-top: 10px !important;
 }
 
 #tabs-container:not(.dummy) {

@@ -13,13 +13,8 @@
     position: absolute;
 }
 
-/* Reduce toolbar size for vivialdi button */
-#browser:not(.tabs-top) .toolbar.toolbar-addressbar {
-    padding-left: 24px;
-}
-
 /* Reduce toolbar size for horizontal menu */
-.horizontal-menu#browser:not(.tabs-top) .toolbar.toolbar-addressbar {
+.horizontal-menu#browser:not(.tabs-top) .toolbar.toolbar-mainbar {
     padding-left: 267px;
 }
 
@@ -31,7 +26,7 @@
 }
 
 /* Reduce toolbar size for window buttons */
-#browser:not(.native):not(.tabs-top) .toolbar.toolbar-addressbar {
+#browser:not(.native):not(.tabs-top) .toolbar.toolbar-mainbar {
     padding-right: 140px;
 }
 

@@ -7,6 +7,10 @@
 }
 
 #titlebar > div.window-buttongroup {
-    height: 33px !important;
+    height: 32px !important;
     align-items: center !important;
+}
+
+.window-buttongroup > button {
+	height: 100% !important;
 }

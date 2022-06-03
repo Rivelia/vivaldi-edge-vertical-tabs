@@ -6,7 +6,7 @@
     height: 16px !important;
 }
 
-#browser:not(.maximized) #main > div.UrlBar.toolbar.toolbar-mainbar {
+#browser:not(.maximized) #main > div.mainbar {
     margin-top: 10px !important;
 }
 
@@ -15,7 +15,8 @@
 }
 
 #browser:not(.maximized) #titlebar > div.window-buttongroup {
-    height: 50px !important;
+    height: 32px !important;
+	margin-top: 10px !important;
 }
 
 #tabs-container:not(.dummy) {

@@ -84,6 +84,7 @@ v1.2.9: Added hover delay (Thanks to u/TwisterMc!)
     padding-left: 15px !important;
     height: 30px !important;
     z-index: 999 !important;
+    width: 50px !important;
 }
 
 .tabs-left .topmenu button.vivaldi-horizontal-icon {
@@ -614,4 +615,12 @@ Drop-Down Tab Stacks based on LonM.vivaldi.net (but heavily modified)
     background-image: linear-gradient(-135deg, var(--colorBorderIntense) 5px, transparent 5px) !important;
     background-position: top right !important;
     background-repeat: no-repeat !important;
+}
+
+#browser > footer {
+	z-index: 99999999 !important;
+}
+
+#browser > div.button-popup {
+	z-index: 99999999 !important;
 }

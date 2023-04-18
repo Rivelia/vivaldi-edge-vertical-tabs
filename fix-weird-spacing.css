@@ -18,3 +18,12 @@
 span.tabbar-wrapper > div.button-toolbar {
 	width: 50px !important;
 }
+
+#browser.win.address-top .toolbar:has(.window-buttongroup.on-mainbar),
+#browser.linux.address-top .toolbar:has(.window-buttongroup.on-mainbar) {
+    min-height: calc(35px / var(--uiZoomLevel));
+}
+
+div.window-buttongroup.on-mainbar {
+	height: 100% !important;
+}

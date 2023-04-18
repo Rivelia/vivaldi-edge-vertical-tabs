@@ -6,6 +6,7 @@
 /* Keep Vivaldi button */
 #browser .vivaldi {
     z-index: 1;
+	height: 100% !important;
 }
 
 /* Keep horizontal menu */
@@ -23,11 +24,6 @@
 /* Keep window buttons */
 #browser .window-buttongroup {
     z-index: 1;
-}
-
-/* Reduce toolbar size for window buttons */
-#browser:not(.native):not(.tabs-top) .toolbar.toolbar-mainbar {
-    padding-right: 140px;
 }
 
 /* Adjust horizontal menu position */

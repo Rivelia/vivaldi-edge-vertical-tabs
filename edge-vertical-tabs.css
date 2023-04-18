@@ -92,13 +92,12 @@ v1.2.9: Added hover delay (Thanks to u/TwisterMc!)
 #tabs-container {
     border-color: var(--colorBgDarker) !important;
     border-width: 1px;
-    z-index: 99999999 !important;
 }
 
 #tabs-tabbar-container {
     width: 0 !important;
     height: 100%;
-    z-index: 99999999;
+    z-index: 9;
 }
 
 #tabs-tabbar-container.left {
@@ -129,14 +128,13 @@ v1.2.9: Added hover delay (Thanks to u/TwisterMc!)
 }
 
 #tabs-container {
-    z-index: 9 !Important;
+    z-index: 9 !important;
 }
 
 #tabs-container.left:hover,
 #tabs-container.right:hover {
     position: fixed;
     left: 0;
-    z-index: 9999999;
     color: var(--colorFg) !important;
     background-color: var(--colorBg);
     height: 100%;

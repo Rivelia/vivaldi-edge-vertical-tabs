@@ -36,3 +36,7 @@
     background: var(--colorAccentBg);
     color: var(--colorAccentFg);
 }
+
+.mainbar > .toolbar-mainbar:not(.dummy) {
+	z-index: 10;
+}

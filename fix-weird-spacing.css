@@ -1,5 +1,5 @@
 #main > div.inner > div:nth-child(2) {
-    width: auto !important;
+    width: 50px !important;
 }
 
 .UrlBar {
@@ -13,4 +13,8 @@
 
 .window-buttongroup > button {
 	height: 100% !important;
+}
+
+span.tabbar-wrapper > div.button-toolbar {
+	width: 50px !important;
 }

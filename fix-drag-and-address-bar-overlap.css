@@ -20,7 +20,6 @@
 }
 
 #tabs-container:not(.dummy) {
-    margin-top: 33px !important;
     padding-top: 0px !important;
 }
 

@@ -28,14 +28,6 @@ v1.2.8: Latest versions of vivaldi added a new container to the tab-bar, this re
 v1.2.9: Added hover delay (Thanks to u/TwisterMc!)
 */
 
-.tabs-left #main {
-        margin-left: 50px;
-}
-
-.tabs-right #main {
-    margin-right: 50px;
-}
-
 #browser.fullscreen #main {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -81,8 +73,6 @@ v1.2.9: Added hover delay (Thanks to u/TwisterMc!)
 
 
 .tabs-left .vivaldi {
-    padding-left: 15px !important;
-    height: 30px !important;
     z-index: 999 !important;
     width: 50px !important;
 }
@@ -107,8 +97,6 @@ v1.2.9: Added hover delay (Thanks to u/TwisterMc!)
 
 #tabs-tabbar-container {
     width: 0 !important;
-    position: fixed;
-    top: 0;
     height: 100%;
     z-index: 99999999;
 }

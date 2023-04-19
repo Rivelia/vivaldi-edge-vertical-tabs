@@ -40,3 +40,11 @@
 .mainbar > .toolbar-mainbar:not(.dummy) {
 	z-index: 10;
 }
+
+.mainbar {
+	background: var(--colorAccentBg);
+}
+
+#browser:not(.maximized) .mainbar > .toolbar {
+	margin-top: 6px !important;
+}

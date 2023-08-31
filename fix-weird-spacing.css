@@ -27,3 +27,7 @@ span.tabbar-wrapper > div.button-toolbar {
 div.window-buttongroup.on-mainbar {
 	height: 100% !important;
 }
+
+#browser.win.address-top .toolbar:has(.window-buttongroup.on-mainbar) {
+    padding-right: calc((46px * 3) / var(--uiZoomLevel)) !important;
+}
